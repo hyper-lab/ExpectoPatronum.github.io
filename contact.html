@@ -10,112 +10,152 @@
     <link href="style.css" rel="stylesheet" type="text/css" />
     <title>THE UNITED KINGDOM</title>
 </head>
+
 <body class="contact">
     <header>
-        <div class="container">
-            <div id="branding">
-              <h1>THE <span class="highlight">UNITED KINGDOM</span> OF GREAT BRITAIN AND NORTHERN IRELAND</h1>
-            </div>
-            <nav>
-              <ul>
-                <li class="current"><a href="index.html">HOME</a></li>
-                <li><a href="about.html">ABOUT</a></li>
-                <li><a href="contact.html">CONTACT US</a></li>
-              </ul>
-                <div class="button">
-                    <button>BRITISH ISLES</button>
-                </div>
-            </nav>
-          </div>
-    </header>
-
-    <section id="newsletter">
-        <div class="container">
-          <h1>Subscribe To Our Newsletter</h1>
-          <form>
-            <input type="email" placeholder="Enter Email" required>
-            <button type="submit" class="button_1">Subscribe</button>
-          </form>
+      <div class="container">
+        <div id="branding">
+          <h1>THE <span class="highlight">UNITED KINGDOM</span> OF GREAT BRITAIN AND NORTHERN IRELAND</h1>
         </div>
+        <nav>
+          <ul>
+            <li class="current"><a href="index.html">HOME</a></li>
+            <li><a href="about.html">ABOUT</a></li>
+            <li><a href="contact.html">CONTACT US</a></li>
+            <div class="button">
+              <button>BRITISH ISLES</button>
+            </div>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    
+    <section id="newsletter">
+      <div class="container">
+        <h1>Subscribe To Our Newsletter</h1>
+        <form>
+          <input type="email" placeholder="Enter Email" required>
+          <button type="submit" class="button_1">Subscribe</button>
+        </form>
+      </div>
+      </div>
     </section>
 
-      <section id="main">
-        <div class="container">
-          <article id="main-col">
-            <h1 class="page-title">Contact Us</h1>
-            <ul id="contact">
-                <li>
-                    <p>
-                    Please contact us using the contact form below if you would like further information regarding this website or the information contained therein. 
-                    </p>
-                </li>
-                  <li>
-                    <p>
-                        <span><strong><u>Snail Mail:</u></strong></span>
-                    </p>
-                    <p>
-                        <em>
-                            Historic UK<br>
-                            PO Box 81<br>
-                            Budleigh Salterton<br>
-                            Devon<br>
-                            EX9 9AJ
-                        </em>
-                    </p>
-                    <p>
-                        For general enquiries about the UK website, please call <strong>021 8674 1931</strong>.
-                    </p>
-                  </li>
-                    <p>
-                        <em>
-                            If you are enquiring about a hotel, please be sure to include the hotel name in your message.
-                        </em>
-                    </p>
+    <section id="main">
+      <div class="container">
+        <article id="main-col">
+          <h1 class="page-title">Contact Us</h1>
+          <ul id="contact">
+            <li>
+              <p>
+                Please contact us using the contact form below if you would like further information regarding this website or the information contained therein. 
+              </p>
+            </li>
+            <li>
+              <h3>Snail Mail:</h3><br>
+              <p>
+                <em>
+                  Historic UK<br>
+                  PO Box 81<br>
+                  Budleigh Salterton<br>
+                  Devon<br>
+                  EX9 9AJ
+                </em><br><br>
+              </p>
+              <h3>For general enquiries about the UK website</h3>
+              <p>
+                Please call <strong>021 8674 1931</strong>.
+              </p>
+            </li>
+            <li>
+              <h3>Company details:</h3><br>
+              <p>
+                British Isles Ltd.
+              </p>
+              <p>
+                Company Registered in England No. 9810325
+              </p>
+              <p>
+                VAT Registration No. GB 000 0000 00
+              </p>
+            </li>
+            <li>
+              <h4>Thank you for taking the time to reach out. We look forwards to hearing from you!</h4>
+            </li>
+            <li>
+              <div class="captcha-container">
+                <form action="/submit-form" method="post">  
+                  <div class="g-recaptcha" data-sitekey="your_site_key"></div>
+                  <div class="privacy-terms">
+                    <p>This site is protected by reCAPTCHA and the Google <a href="https://policies.google.com/privacy" target="_blank">Privacy Policy</a> and <a href="https://policies.google.com/terms" target="_blank">Terms of Service</a> apply.</p>
+                  </div>
+                  <button type="subm">Submit</button>
+                </form>
+              </div>
+            </li>
+          </ul>
+        </article>
+  
+          <aside id="sidebar">
+            <div class="dark">
+              <h3>Get An Update</h3><br>
+              <form class="update">
+                            <div>
+                                <label>Name</label><br>
+                                <input type="text" placeholder="Name">
+                            </div>
+                            <div>
+                                <label>Email</label><br>
+                                <input type="email" placeholder="Email Address">
+                            </div>
+                            <div>
+                                <label>Message</label><br>
+                                <textarea placeholder="Message"></textarea>
+                            </div>
+                            <button class="button_1" type="submit">Send</button>
+                </form>
+            </div>
+          </aside>
 
-                    <div class="form-center">
-                        <label for="name"><b>Name*</b></label><br>
-                        <input type="text" placeholder="" name="name" required/><br>
-                        <label for="email"><b>Email*</b></label><br>
-                        <input type="text" placeholder="" name="email" required/><br>
-                        <label class="mess" for="input"><b>Message*</b></label><br>
-                    <div class="put_container_textarea">
-                        <textarea name="input_3" id="input" class="textarea medium" aria-required="true" aria-invalid="false" rows="10" cols="50"></textarea>
+          <aside id="sidebar">
+            <div class="dark">
+                <h3>History in your inbox</h3>
+                <p>Sign up for monthly updates</p>
+                <form class="update">
+                    <div>
+                        <label></label><br>
+                        <input type="email" placeholder="Email Address"> <br>
                     </div>
-                        <input type="submit" name="" value="Submit" />
-                    </div>
+                </form>
+            </div>
+          </aside>
 
-                    <form action="submit-form.php" method="POST">
-                        <div class="g-recaptcha" data-sitekey="YOUR_SITE_KEY"></div>
-                        <button type="submit">Submit</button>
-                      </form>
-
-                    <aside id="sidebar">
-                        <div class="dark">
-                            <form class="quote">
-                                <div>
-                                    <label>Name</label><br>
-                                    <input type="text" placeholder="Name">
-                                </div>
-                                <div>
-                                    <label>Email</label><br>
-                                    <input type="email" placeholder="Email Address">
-                                </div>
-                                <div>
-                                    <label>Message</label><br>
-                                    <textarea placeholder="Message"></textarea>
-                                </div>
-                                <button class="button_1" type="submit">Send</button>
-                            </form>
-                    </div>
-                  </aside>
+          <aside id="sidebar">
+            <div class="dark">
+                <p>
+                    <em>
+                        If you are enquiring about a hotel, please be sure to include the hotel name in your message.
+                    </em> <br><br>
+                </p>
+            <div class="update">
+                    <label for="name">Name</label><br>
+                    <input type="text" placeholder="" name="name"/><br>
+                    <label for="email">Email</label><br>
+                    <input type="text" placeholder="" name="email"/><br>
+                    <label class="mess" for="input">Message</label><br>
+                <div class="put_container_textarea">
+                    <textarea name="input_3" id="input" class="textarea medium" aria-required="true" aria-invalid="false" rows="10" cols="47"></textarea>
                 </div>
+                <button class="button_1" type="submit">SUBMIT</button>
+            </div>
+          </aside>
 
-            </div>     
-        </div>
+      </div>
+    </section>
+      
+      <footer>
+        <p>BRITISH ISLES, Copyright &copy; 2023- All Rights Reserved.</p>
+      </footer>
+    </body>
 
-                    <footer>
-                    <p>BRITISH ISLES, Copyright &copy; 2023</p>
-                 </footer>
-               
-</body>
 </html>
